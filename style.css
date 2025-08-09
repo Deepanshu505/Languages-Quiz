@@ -43,10 +43,21 @@ body {
     border: none;
     border-radius: 8px;
     cursor: pointer;
+    transition: background 0.2s, border 0.2s, color 0.2s;
   }
   
   #options button:hover {
-    background-color: #4f525e;
+    background-color: #fff;
+    color: #2d2f39;
+    border: 2px solid #000;
+    border-radius: 8px;
+  }
+  
+  #options button.selected {
+    background-color: #fff;
+    color: #2d2f39;
+    border: 2px solid #000;
+    border-radius: 8px;
   }
   
   #nextBtn {
